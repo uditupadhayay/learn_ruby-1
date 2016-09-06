@@ -103,6 +103,7 @@ require "hello"
 
 describe "the hello function" do
   it "says hello" do
+    hello = "Hello!"
     expect(hello).to eq("Hello!")
   end
 end
